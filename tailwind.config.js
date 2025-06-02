@@ -5,6 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        inter: ['"Inter"', "sans-serif"],
+        raleway: ['"Raleway"', "sans-serif"],
+        poppins: ['"Poppins"', "sans-serif"],
         playfair: ['"Playfair Display"', "serif"],
       },
     },
