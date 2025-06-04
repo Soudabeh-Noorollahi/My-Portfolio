@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-import { MdEmail, MdOutlineWavingHand } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 
 const container = (delay) => ({
