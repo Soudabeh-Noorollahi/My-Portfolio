@@ -31,7 +31,7 @@ function Introduction() {
           animate="visible"
           className="text-2xl font-semibold mt-2 mb-1 text-neutral-700"
         >
-          I am <strong className="text-violet-600">Soudabeh </strong>{" "}
+          I am <strong className="text-violet-600">Soudabeh</strong>,{" "}
         </motion.p>
         <motion.p
           variants={container(0.3)}
@@ -47,9 +47,9 @@ function Introduction() {
           animate="visible"
           className="text-base  text-neutral-600 text-justify"
         >
-          I’ve been learning by building—one step at a time. This space is where
+          I’ve been learning by building one step at a time. This space is where
           I share what I’ve tried, what I’ve learned, and what I’ve been working
-          on.Thanks for your attention.
+          on. Thanks for your attention.
         </motion.p>
       </div>
 
