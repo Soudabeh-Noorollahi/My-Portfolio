@@ -13,9 +13,9 @@ function AboutMe() {
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl w-fit border-b-2 mx-auto pb-1 mb-4 border-violet-600 font-bold text-neutral-700">
+          <h4 className="text-3xl w-fit border-b-2 mx-auto pb-1 mb-4 border-violet-600 font-bold text-neutral-700">
             About Me
-          </h1>
+          </h4>
           <p className="text-xl mx-auto leading-8 text-neutral-600 text-justify ">
             I’m a software engineer with a background in computer engineering
             and over 10 years of experience solving real world problems through
