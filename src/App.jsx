@@ -4,6 +4,7 @@ import AboutMe from "./components/modules/AboutMe";
 import Skills from "./components/modules/Skills";
 import Projects from "./components/modules/Projects";
 import ProfessionalExperience from "./components/modules/ProfessionalExperience";
+import ContactMe from "./components/modules/ContactMe";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Projects/>
       <ProfessionalExperience/>
+      <ContactMe/>
     </div>
   );
 }
