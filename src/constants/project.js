@@ -1,11 +1,11 @@
-import BookApp from "../assets/projects/Book-App.PNG";
-import CarNest from "../assets/projects/Car-Nest.PNG";
-import ContactApp from "../assets/projects/Contact-App.PNG";
-import CRMApp from "../assets/projects/CRM-App.PNG";
-import CryptoApp from "../assets/projects/CryptoApp.PNG";
-import FoodJoy from "../assets/projects/Foodjoy.PNG";
-import StoreProject from "../assets/projects/Store-Project.PNG";
-import ToDoGo from "../assets/projects/ToDoGo.PNG";
+import BookApp from "../assets/projects/Book-App.png";
+import CarNest from "../assets/projects/CarNest.png";
+import ContactApp from "../assets/projects/ContactApp.png";
+import CRMApp from "../assets/projects/CRMApp.png";
+import CryptoApp from "../assets/projects/Crypto-App.png";
+import FoodJoy from "../assets/projects/Foodjoy.png";
+import StoreProject from "../assets/projects/Store-Project.png";
+import ToDoGo from "../assets/projects/ToDoGo.png";
 
 const projects = [
   {
