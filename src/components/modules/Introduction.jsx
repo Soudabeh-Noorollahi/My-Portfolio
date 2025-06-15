@@ -78,7 +78,7 @@ function Introduction() {
         </motion.li>
 
         <motion.li variants={container(0.8)} initial="hidden" animate="visible">
-          <a href="#">
+          <a href="https://t.me/Soudabehnrl">
             <FaTelegram className="h-5 w-5 text-neutral-700 hover:text-blue-800" />
           </a>
         </motion.li>
