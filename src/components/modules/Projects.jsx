@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { projects } from "../../constants/project";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import {projects} from "../../constants/project.js"
 
 function Projects() {
   return (
