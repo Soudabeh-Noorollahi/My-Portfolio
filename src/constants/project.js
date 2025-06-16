@@ -3,7 +3,7 @@ import CarNest from "../assets/projects/CarNest.png";
 import ContactApp from "../assets/projects/ContactApp.png";
 import CRMApp from "../assets/projects/CRMApp.png";
 import CryptoApp from "../assets/projects/Crypto-App.png";
-import FoodJoy from "../assets/projects/Foodjoy.png";
+import FoodJoy from "../assets/projects/FoodJoy.png";
 import StoreProject from "../assets/projects/Store-Project.png";
 import ToDoGo from "../assets/projects/ToDoGo.png";
 
