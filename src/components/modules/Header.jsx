@@ -9,7 +9,17 @@ function Header() {
 
   return (
     <header className="fixed w-screen border-b-2 xl:max-w-[1380px] border-b-neutral-100 mx-auto bg-white z-20">
-      <div className="flex xl:px-20 px-5 xl:py-6 py-3 justify-between items-center">
+      <div className="flex xl:px-20 px-5 xl:py-6 py-3 justify-between items-center ">
+        {/* Mobile menu button */}
+        <span className="block md:hidden">
+          <button
+            className="text-emerald-700 text-3xl font-bold"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            ☰
+          </button>
+        </span>
+
         <span
           className="text-lg md:text-xl xl:text-2xl font-bold tracking-wide text-emerald-700"
           style={{ fontFamily: "Raleway, sans-serif" }}
@@ -38,21 +48,12 @@ function Header() {
           </ul>
         </span>
 
-        {/* Mobile menu button */}
-        <span className="block md:hidden">
-          <button
-            className="text-emerald-700 text-3xl font-bold"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            ☰
-          </button>
-        </span>
-
         {/* Download CV button (always visible) */}
         <span>
           <Link to="/request-cv">
             <button className="bg-emerald-700  px-2 md:px-4 xl:px-6 py-1 md:py-2  text-sm xl:text-lg rounded text-white font-semibold hover:bg-white hover:border hover:border-emerald-600 hover:text-emerald-600 hover:font-bold transition-colors">
-              Download CV
+              <span className="block md:hidden">CV</span>
+              <span className="hidden md:block">Download CV</span>
             </button>
           </Link>
         </span>
