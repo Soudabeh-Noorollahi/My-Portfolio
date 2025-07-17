@@ -16,7 +16,7 @@ const container = (delay) => ({
 
 function Introduction() {
   return (
-    <div className="flex flex-col-reverse xl:flex-row md:items-center mt-12 xl:px-16 items-center py-6 justify-between bg-gradient-to-b from-stone-100">
+    <div className="flex flex-col-reverse xl:flex-row md:items-center mt-12 xl:px-16 items-center py-6 justify-between bg-gradient-to-b from-stone-200">
       <div className="xl:w-screen lg:w-screen md:w-screen px-5 mb-2 xl:px-0">
         <motion.div
           variants={container(0)}
