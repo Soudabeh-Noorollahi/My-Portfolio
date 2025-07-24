@@ -18,17 +18,19 @@ function AboutMe() {
           </h4>
           <p className="text-xl mx-auto leading-8 text-neutral-600 text-justify ">
             I’m a software engineer with a background in computer engineering
-            and over 10 years of experience solving real world problems through
+            and years of experience solving real-world problems through
             technology. My journey started in enterprise systems, but over time,
-            I’ve grown passionate about modern web development and user centered
-            design. I enjoy turning ideas into clean, useful software especially
-            in collaborative, agile teams.
+            I’ve grown deeply passionate about modern web development and
+            user-centered design. I enjoy crafting clean, maintainable code with
+            thoughtful design and a consistent user experience — especially in
+            collaborative, agile teams.
           </p>
           <p className="mb-5 text-xl leading-8 text-neutral-600 text-justify">
             These days, I spend most of my time sharpening my skills with
-            JavaScript, React, and UI/UX practices. I've also been exploring
-            backend tools like GraphQL and MongoDB, and building full-stack
-            projects with Next.js. Along the way, I’ve developed a solid
+            JavaScript, TypeScript, React, Next.js, TailwindCSS, and UI/UX
+            practices. I've also been exploring backend technologies such as
+            GraphQL and MongoDB, mainly to better understand the overall
+            development workflow. Along the way, I’ve developed a solid
             understanding of Agile workflows and Scrum practices, which help me
             work better in team-based environments. This portfolio is part of
             that learning path where I challenge myself, explore new tools, and
